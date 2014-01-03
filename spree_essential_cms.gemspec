@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Spencer Steffen"]
   s.email       = ["spencer@citrusme.com"]
-  s.homepage    = "https://github.com/citrus/spree_essential_cms"
+  s.homepage    = "https://github.com/cuon/spree_essential_cms"
   s.summary     = %q{SpreeEssentialCms is a full featured content management system for Spree Commerce.}
   s.description = %q{SpreeEssentialCms is a full featured content management system for Spree Commerce. It's designed to be used with the spree_essentials base.}
 
@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
 
   # Spree Essentials
   s.add_runtime_dependency('spree_essentials', '~> 0.6.0')
-  s.add_dependency('deface', '~> 0.9.1')
+  s.add_dependency('deface', '~> 1.0.0')
   # Development
   s.add_development_dependency('spree_sample', '~> 2.0.4')
 	s.add_development_dependency('dummier',      '~> 0.3.2')
